@@ -1,0 +1,33 @@
+extends layout
+block content
+    .display-4
+    h1="Welcome to Red Hat OpenShift"
+    p="The Developer Sandbox for Red Hat OpenShift allows you get free access to an OpenShift cluster for 30 days. Learn Kubernetes, experiment with microservics, or build a Proof of Concept for your organization."
+    p="Explore the following technologies and concepts using the Developer Sandbox Activities we've created:"
+    .card-group 
+        .card(style="width: 18rem")
+            img(src="/images/pizza-card.png", alt="Card image cap", style="card-img-top")
+            .card-body 
+                .card-title 
+                    h5="Activity"
+                    .card-text
+                    p='Event-Driven Architecture using Apache Kafka (with Red Hat OpenShift Streams for Apache Kafka)'
+                    a(class='btn btn-primary', href='https://developers.redhat.com/node/226211') Take me there
+        .card(style="width: 18rem")
+            img(src="/images/petclinic-card.png", alt="Card image cap", style="card-img-top")
+            .card-body 
+                .card-title 
+                    h5="Activity"
+                    .card-text
+                    p='Deploy a Java Application on Kubernetes in minutes'
+                    a(class='btn btn-primary', href='https://developers.redhat.com/node/226211') Take me there
+        .card(style="width: 18rem")
+            img(src="/images/kube-activity-card.png", alt="Card image cap", style="card-img-top")
+            .card-body 
+                .card-title 
+                    h5="Activity"
+                    .card-text
+                    p='Learn Kubernetes'
+                    a(class='btn btn-primary', href='https://developers.redhat.com/node/226211') Take me there
+    p="This is the Node.js (Express.js) example for Developer Sandbox for Red Hat OpenShift"
+    p="Find it at https://github.com/redhat-developer-demos/sandbox-nodejs"
